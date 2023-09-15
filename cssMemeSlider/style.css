@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,15 +9,19 @@ body {
 .slider {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.input {
+    display: none;
 }
 
 .slides {
+    width: 50vw;
     display: flex;
-    width: 45vw;
-    height: 55vh;
     overflow: hidden;
     border: solid rgb(224, 224, 231);
-    margin-left: 25%;
 }
 
 .bot-wrapper {
