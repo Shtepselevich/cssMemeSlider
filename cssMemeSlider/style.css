@@ -21,10 +21,22 @@ body {
     margin-left: 25%;
 }
 
+.bot-wrapper {
+    width: 45vw;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navigation {
+    display: flex;
+    justify-content: end;
     width: 15vw;
     height: 10vh;
-    margin-left: 55.5%;
     padding-top: 1%;
-    padding-left: 9%;
+
+}
+
+.button {
+    margin-left: 2%;
 }
