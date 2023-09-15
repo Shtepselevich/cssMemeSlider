@@ -3,14 +3,21 @@
 }
 
 body {
-    background-color: rgb(199, 200, 200);
+    background-image: url(img/bacground.jpg);
+    background-repeat: no-repeat;
+
+
+
 }
 
 .slider {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
+    max-width: 70vw;
+    overflow: hidden;
+    border: solid rgb(224, 224, 231);
+    margin: auto;
 }
 
 .input {
@@ -18,10 +25,16 @@ body {
 }
 
 .slides {
-    width: 50vw;
     display: flex;
-    overflow: hidden;
-    border: solid rgb(224, 224, 231);
+    width: 500%;
+}
+
+.slide {
+    margin-left: 10%;
+}
+
+.image {
+    width: 100%;
 }
 
 .bot-wrapper {
@@ -41,5 +54,10 @@ body {
 }
 
 .button {
-    margin-left: 2%;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: rgb(79, 92, 113);
+    margin-left: 3%;
+
 }
