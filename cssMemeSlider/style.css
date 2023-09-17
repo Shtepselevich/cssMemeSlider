@@ -183,6 +183,7 @@ body {
     }
 
     .text-slider {
+        height: fit-content;
         order: 1;
     }
 
