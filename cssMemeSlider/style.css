@@ -77,6 +77,7 @@ body {
     opacity: 0;
     display: none;
     transition: opacity 0.4s ease-in-out;
+    padding-left: 1%;
 }
 
 #r1:checked~.bot-wrapper .text-slider .t1,
@@ -101,15 +102,16 @@ body {
 
 .navigation {
     width: fit-content;
-    height: 5%;
+    height: 25%;
     margin-right: 0;
-    display: flex;
+    display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 .button {
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 .button-style {
@@ -126,6 +128,7 @@ body {
 .button:hover .button-style {
     border-radius: 50%;
     background-color: rgb(205, 205, 205);
+    cursor: pointer;
 }
 
 #r1:checked~.bot-wrapper .navigation .b1,
@@ -154,14 +157,14 @@ body {
     }
 }
 
-@media (max-width:801px) {
+@media (max-width:823px) {
     .wrapper {
         max-width: 70%;
         padding-top: 10%;
     }
 }
 
-@media (max-width:601px) {
+@media (max-width:651px) {
     .wrapper {
         max-width: 80%;
         padding-top: 20%;
