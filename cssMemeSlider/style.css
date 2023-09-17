@@ -80,6 +80,10 @@ body {
     padding-left: 1%;
 }
 
+.t3 {
+    white-space: nowrap;
+}
+
 #r1:checked~.bot-wrapper .text-slider .t1,
 #r2:checked~.bot-wrapper .text-slider .t2,
 #r3:checked~.bot-wrapper .text-slider .t3,
