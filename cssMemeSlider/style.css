@@ -143,15 +143,10 @@ body {
     }
 }
 
-@media (max-width:1181px) {
-    .wrapper {
-        max-width: 50%;
-    }
-}
 
 @media (max-width:1181px) {
     .wrapper {
-        max-width: 60%;
+        max-width: 55%;
     }
 
     .text {
