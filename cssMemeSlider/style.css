@@ -188,5 +188,6 @@ body {
 
     .text {
         text-align: center;
+        padding-left: 0;
     }
 }
