@@ -124,7 +124,7 @@ body {
     width: 2rem;
     cursor: pointer;
     background-color: rgb(230, 246, 188);
-    border: solid 0.2rem rgb(43, 45, 98);
+    border: solid 0.2rem rgb(59, 60, 99);
     border-radius: 30%;
     transition: all 0.4s ease;
 }
