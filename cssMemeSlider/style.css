@@ -175,6 +175,7 @@ body {
     .bot-wrapper {
         flex-direction: column;
         margin-top: 5%;
+        height: 10rem;
     }
 
     .button-style {
