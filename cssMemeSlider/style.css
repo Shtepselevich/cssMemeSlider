@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-    max-width: 37.5%;
+    max-width: 35%;
     margin: 0 auto;
     overflow: hidden;
     padding-top: 5%;
@@ -139,19 +139,19 @@ body {
 
 @media (max-width:1441px) {
     .wrapper {
-        max-width: 45%;
+        max-width: 40%;
     }
 }
 
 @media (max-width:1181px) {
     .wrapper {
-        max-width: 55%;
+        max-width: 50%;
     }
 }
 
 @media (max-width:1181px) {
     .wrapper {
-        max-width: 65%;
+        max-width: 60%;
     }
 
     .text {
@@ -161,14 +161,14 @@ body {
 
 @media (max-width:801px) {
     .wrapper {
-        max-width: 75%;
+        max-width: 70%;
         padding-top: 10%;
     }
 }
 
 @media (max-width:601px) {
     .wrapper {
-        max-width: 85%;
+        max-width: 80%;
         padding-top: 20%;
     }
 
